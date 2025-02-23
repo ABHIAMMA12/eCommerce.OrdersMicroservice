@@ -29,7 +29,7 @@ ENV UsersMicroserviceName=localhost
 ENV UsersMicroservicePort=9010
 ENV ProductsMicroserviceName=localhost
 ENV ProductsMicroservicePort=8080
-#ENV REDIS_HOST=my-redis
-#ENV REDIS_PORT=6379
+ENV REDIS_HOST=my-redis
+ENV REDIS_PORT=6379
 
 ENTRYPOINT ["dotnet", "OrdersMicroservice.API.dll"]
